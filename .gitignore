@@ -1,0 +1,12 @@
+# glob syntax https://facelessuser.github.io/wcmatch/glob/
+node_modules
+# we ignore node_modules bec we can get them back from package.json
+# .DS_Store (Mac)
+config/
+**/*.config
+# ** means any folder * means any file name
+
+# git init will keep track of all the changes inside this folder  
+# any file that you don't want pushed to your github repo, you can ignore them
+
+# npm init -y creates a package.json
